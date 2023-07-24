@@ -10,7 +10,7 @@ body {
 	padding: 0;
 	background: #FFFFFF;
 	font-family: 'Open Sans', sans-serif;
-	font-size: 13px;
+	font-size: 15px;
 	color: #3B3B3B;
 }
 
@@ -29,7 +29,7 @@ h1 {
 }
 
 h2 {
-	font-size: 2.4em;
+	font-size: 25px;
 	text-transform: none;
 	text-align:center;
 }
@@ -107,6 +107,26 @@ a:hover {
 	background: none;
 	text-decoration: none;
 	color: #323030;
+}
+
+#research-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 50px 0 0 0;
+  width: 70%;
+}
+
+.link-wrapper {
+    position: absolute;
+}
+
+#link-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 50px 0 0 0;
+  width: 30%;
 }
 
 /* Search */
@@ -215,13 +235,12 @@ a:hover {
 /* Content */
 
 #content {
-	float: left;
-	width: 540px;
+
 }
 
 .post {
 	margin-bottom: 15px;
-	padding: 30px 40px;
+	padding: 40px 200px;
 	border: 1px solid #E7DFD7;
 	border-radius: 8px;
 	background: #F8F8F8;
@@ -237,7 +256,7 @@ a:hover {
 	height: 38px;
 	margin-bottom: 10px;
 	padding: 12px 0 0 0px;
-	font-size: 32px;
+	font-size: 30px;
 }
 
 .post .title a {
